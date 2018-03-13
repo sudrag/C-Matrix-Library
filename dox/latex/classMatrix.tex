@@ -1,0 +1,116 @@
+\hypertarget{classMatrix}{}\section{Matrix$<$ T, m, n $>$ Class Template Reference}
+\label{classMatrix}\index{Matrix$<$ T, m, n $>$@{Matrix$<$ T, m, n $>$}}
+
+
+Class used for member function definitions. Uses templates.  
+
+
+
+
+{\ttfamily \#include $<$matrix\+\_\+functions.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMatrix_a48672cd6372a2bd80816321c0ffb8757}{Matrix} (vector$<$ vector$<$ T $>$ $>$ \&a)
+\begin{DoxyCompactList}\small\item\em Constructor of class. Used to create matrix. \end{DoxyCompactList}\item 
+\hyperlink{classMatrix_a0fc90e09b1eddc059e70881ad8f17ba2}{$\sim$\+Matrix} ()\hypertarget{classMatrix_a0fc90e09b1eddc059e70881ad8f17ba2}{}\label{classMatrix_a0fc90e09b1eddc059e70881ad8f17ba2}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{classMatrix_ac161952679186c23c5785e5bcfef2cb7}{print} ()
+\begin{DoxyCompactList}\small\item\em Function to print out the matrix and display. \end{DoxyCompactList}\item 
+\hyperlink{classMatrix}{Matrix}$<$ T, n, m $>$ \hyperlink{classMatrix_a99567eedc9e9213b2047352e01f1abb4}{transpose} ()
+\begin{DoxyCompactList}\small\item\em Function to create transpose. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries nrow}\hypertarget{classMatrix_abf937e657da2a3a625f704fd1568a9b0}{}\label{classMatrix_abf937e657da2a3a625f704fd1568a9b0}
+
+\item 
+int {\bfseries ncol}\hypertarget{classMatrix_a487a37e9cff00849712b7f7518fcd669}{}\label{classMatrix_a487a37e9cff00849712b7f7518fcd669}
+
+\item 
+bool {\bfseries flag1}\hypertarget{classMatrix_a5f7fde3d29abf2546c0a493492aa493d}{}\label{classMatrix_a5f7fde3d29abf2546c0a493492aa493d}
+
+\item 
+bool {\bfseries flag2}\hypertarget{classMatrix_a7980c98c92fa7235fa622714281deda7}{}\label{classMatrix_a7980c98c92fa7235fa622714281deda7}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Matrix$<$ T, n, m $>$}\hypertarget{classMatrix_af605af7f7385a53d54fa71f056de3ae8}{}\label{classMatrix_af605af7f7385a53d54fa71f056de3ae8}
+
+\item 
+{\footnotesize template$<$class \+\_\+T , int \+\_\+m, int \+\_\+n, int p, int l$>$ }\\\hyperlink{classMatrix}{Matrix}$<$ \+\_\+T, \+\_\+m, l $>$ {\bfseries operator$\ast$} (const \hyperlink{classMatrix}{Matrix}$<$ \+\_\+T, \+\_\+m, \+\_\+n $>$ \&, const \hyperlink{classMatrix}{Matrix}$<$ \+\_\+T, p, l $>$ \&)\hypertarget{classMatrix_a88d24ca802ed274a2a5a9c7fd176017e}{}\label{classMatrix_a88d24ca802ed274a2a5a9c7fd176017e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T, int m, int n$>$\\*
+class Matrix$<$ T, m, n $>$}
+
+Class used for member function definitions. Uses templates. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Matrix@{Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!Matrix@{Matrix}}
+\subsubsection[{\texorpdfstring{Matrix(vector$<$ vector$<$ T $>$ $>$ \&a)}{Matrix(vector< vector< T > > &a)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T , int m, int n$>$ {\bf Matrix}$<$ T, m, n $>$\+::{\bf Matrix} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ T $>$ $>$ \&}]{ar}
+\end{DoxyParamCaption}
+)}\hypertarget{classMatrix_a48672cd6372a2bd80816321c0ffb8757}{}\label{classMatrix_a48672cd6372a2bd80816321c0ffb8757}
+
+
+Constructor of class. Used to create matrix. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ar} & is the vector of vectors used to define the matrix \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classMatrix}{Matrix} which is a created object and a vector of vectors 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\index{Matrix@{Matrix}!print@{print}}
+\index{print@{print}!Matrix@{Matrix}}
+\subsubsection[{\texorpdfstring{print()}{print()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T , int m, int n$>$ void {\bf Matrix}$<$ T, m, n $>$\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classMatrix_ac161952679186c23c5785e5bcfef2cb7}{}\label{classMatrix_ac161952679186c23c5785e5bcfef2cb7}
+
+
+Function to print out the matrix and display. 
+
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\index{Matrix@{Matrix}!transpose@{transpose}}
+\index{transpose@{transpose}!Matrix@{Matrix}}
+\subsubsection[{\texorpdfstring{transpose()}{transpose()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T , int m, int n$>$ {\bf Matrix}$<$ T, n, m $>$ {\bf Matrix}$<$ T, m, n $>$\+::transpose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classMatrix_a99567eedc9e9213b2047352e01f1abb4}{}\label{classMatrix_a99567eedc9e9213b2047352e01f1abb4}
+
+
+Function to create transpose. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classMatrix}{Matrix} Transposed matrix object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/sudartion/cpp\+\_\+ws/matrix\+\_\+operations/include/matrix\+\_\+functions.\+hpp\end{DoxyCompactItemize}
